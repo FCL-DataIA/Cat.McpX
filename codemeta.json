@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Technology for biodiversity",
+    "author": [
+        {
+            "id": "https://orcid.org/my-orcid?orcid=0000-0002-1276-0707",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Pôle National des Données de Biodiversité"
+            },
+            "email": "francis.clement@essec.edu",
+            "familyName": "CLEMENT",
+            "givenName": "Francis"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/my-orcid?orcid=0000-0002-1276-0707",
+            "roleName": "Chief Operating Officer",
+            "startDate": "2025-02-25"
+        }
+    ],
+    "codeRepository": "https://github.com/FCL-DataIA/Cat.McpX",
+    "dateCreated": "2026-11-09",
+    "dateModified": "2026-11-13",
+    "datePublished": "2026-11-13",
+    "description": "This Python system is a MCP server.",
+    "downloadUrl": "https://github.com/FCL-DataIA/Cat.McpX",
+    "keywords": [
+        "catalog",
+        "MCP"
+    ],
+    "license": "https://spdx.org/licenses/MIT",
+    "name": "Cat.McpX",
+    "operatingSystem": [
+        "MacOS",
+        "Linux",
+        "Unix",
+        "Windows"
+    ],
+    "programmingLanguage": "Python",
+    "relatedLink": "https://www.pnfb.fr",
+    "releaseNotes": "First stable release of the MCP server for the PNDB catalog.",
+    "version": "1.1.2",
+    "issueTracker": "https://github.com/FCL-DataIA/Cat.McpX/issues"
+}
